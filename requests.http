@@ -1,0 +1,8 @@
+### Normal handler
+GET http://localhost:8080 HTTP/1.1
+
+### Slow handler that pass
+GET http://localhost:8080/slow-pass HTTP/1.1
+
+### Slow handler that not pass
+GET http://localhost:8080/slow-not-pass HTTP/1.1
